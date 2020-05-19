@@ -284,7 +284,181 @@ footer nav a {
 }
 
 @media (max-width: 500px) {
+
 nav ul {
+    font-size: 1.125em;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+nav img {
+    width: 20%;
+    padding-bottom: 15px;
+    align-content: center;
+}
+
+.roads {
+    width: 100%;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middle-content h2 {
+    text-align: center;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-content .boxes .box-1 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-2 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-3 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-4 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-5 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-6 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-7 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-8 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-9 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-10 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+footer nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 2%;
+        font-size: 1.125em;
+}
+
+    /* nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -306,9 +480,7 @@ nav img {
 }
 
 .roads {
-    width: 75%;
-    display: flex;
-    align-items: center;
+    flex: 0 1 500px;
 }
 
 .top-content {
@@ -333,7 +505,6 @@ nav img {
     margin: 0 2% 20px;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
 }
 
 footer nav {
@@ -344,5 +515,5 @@ footer nav {
     flex-direction: column;
     padding: 20px 2%;
     font-size: 14px;
-}
+} */
 }
