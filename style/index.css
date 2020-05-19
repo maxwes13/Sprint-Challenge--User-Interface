@@ -55,19 +55,58 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+  
+nav ul li {
+    margin: 0.5em;
+  }
+  
+nav ul li a {
+    text-decoration: none;
+     color: black;
+  }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+nav a {
+    font-size: .875em;
     font-family: 'Rubik', sans-serif;
+}
+
+nav img {
+    width: auto;
+}
+
+nav {
+    width: 100%;
+    margin: .625em;
+    display: flex;
+    box-sizing: border-box;
+}
+    
+h1, h2, h3, h4, h5 {
+    font-size: 1.125em;
+    margin-bottom: .9375em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.roads {
+    margin-top: 2%;
+    margin-bottom: 2%; 
 }
 
 p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+body {
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -82,11 +121,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 1.25em;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     border-bottom: 1px dashed black;
 }
 
@@ -101,11 +140,110 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+    margin: 1.25em 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: dodgerblue;
     color: white;
     display: flex;
     align-items: center;
@@ -114,7 +252,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 1.25em;
     justify-content: space-around;
 }
 
@@ -136,11 +274,195 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 1.25em 2%;
+    font-size: 0.875em;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+
+nav ul {
+    font-size: 1.125em;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+nav img {
+    width: 20%;
+    padding-bottom: 15px;
+    align-content: center;
+}
+
+.roads {
+    width: 100%;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middle-content h2 {
+    text-align: center;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-content .boxes .box-1 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-2 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-3 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-4 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-5 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-6 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-7 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-8 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-9 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-10 {
+    width: 25%;
+    height: 100px;
+    margin: 1.25em 2.5%;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 2%;
+        font-size: 1.125em;
+}
+
+ 
+.bottom-content {
+    display: flex;
+    margin: 0 25% 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.bottom-content h2 {
+    padding-top: 10px;
+
+}
+
 }
