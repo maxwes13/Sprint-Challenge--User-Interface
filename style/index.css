@@ -440,14 +440,6 @@ nav img {
     justify-content: center;
 }
 
-.bottom-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-}
-
 footer nav {
         width: 100%;
         display: flex;
@@ -458,62 +450,19 @@ footer nav {
         font-size: 1.125em;
 }
 
-    /* nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-}
-
-nav {
-    width: 100%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-nav img {
-    width: 30%;
-    align-content: center;
-}
-
-.roads {
-    flex: 0 1 500px;
-}
-
-.top-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-
+ 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer nav {
-    width: 100%;
-    display: flex;
+    margin: 0 25% 40px;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 20px 2%;
-    font-size: 14px;
-} */
+    padding-top: 0px;
+}
+
+.bottom-content h2 {
+    padding-top: 10px;
+
+}
+
 }
